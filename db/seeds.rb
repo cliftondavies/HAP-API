@@ -5,3 +5,20 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+hike1 = Hike.create!(
+  name: 'Coast',
+  main_image: 'https://picsum.photos/id/1050/600/660',
+  thumbnail_image: 'https://picsum.photos/id/1050/200/200',
+)
+
+hike2 = Hike.create!(
+  name: 'Fjord',
+  main_image: 'https://picsum.photos/id/1015/600/660',
+  thumbnail_image: 'https://picsum.photos/id/1015/200/200',
+)
+
+hike3 = Hike.create!(
+  name: 'Mountain',
+  main_image: 'https://picsum.photos/id/1018/600/660',
+  thumbnail_image: 'https://picsum.photos/id/1018/200/200',
+)
