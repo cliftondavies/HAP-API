@@ -2,12 +2,12 @@ class AppointmentsController < ApplicationController
   before_action :authenticate_user!
 
   def index
-    json_response(Appointment.all)
+    json_response(current_user.bookings)
   end
 
-  def show
+  def create
     current_user.bookings.create!(booking_params)
-    json_response(Appointment.all, :created)
+    json_response(current_user.bookings, :created)
   end
 
   private
