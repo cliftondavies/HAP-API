@@ -5,7 +5,7 @@
 
 # HAP API
 
-> An API-only app consumed by the [HAP](https://github.com/cliftondavies/Hikes-Against-Poverty) frontend via token-based authentication.
+> An API-only app consumed by the [HAP](https://github.com/cliftondavies/Hikes-Against-Poverty) frontend via token-based authentication with [devise-token-auth](https://devise-token-auth.gitbook.io/devise-token-auth/).
 
 ## MVP Features
 
@@ -133,7 +133,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [devise-token-auth](https://devise-token-auth.gitbook.io/devise-token-auth/)
 - [Postman](https://www.postman.com/)
 - [HTTPie](https://httpie.io/)
 
