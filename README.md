@@ -5,7 +5,7 @@
 
 # HAP API
 
-> An API-only app consumed by the [HAP](https://github.com/cliftondavies/Hikes-Against-Poverty) frontend.
+> An API-only app consumed by the [HAP](https://github.com/cliftondavies/Hikes-Against-Poverty) frontend via token-based authentication.
 
 ## MVP Features
 
@@ -25,7 +25,6 @@ The MVP endpoints include:
 - Ruby v2.6.5
 - Ruby on Rails v5.2.4
 - PostgreSQL >=9.5
-- devise-token-auth v1.1.5
 
 ## :rocket: Getting Started
 
@@ -134,7 +133,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Rails Guides](https://guides.rubyonrails.org/)
+- [devise-token-auth](https://devise-token-auth.gitbook.io/devise-token-auth/)
+- [Postman](https://www.postman.com/)
+- [HTTPie](https://httpie.io/)
 
 ## 📝 Copyright & License
 
