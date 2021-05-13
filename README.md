@@ -24,6 +24,7 @@ The MVP endpoints include:
 
 - Ruby v2.6.5
 - Ruby on Rails v5.2.4
+- RSpec >=3.8.0
 - PostgreSQL >=9.5
 
 ## :rocket: Getting Started
