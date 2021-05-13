@@ -1,10 +1,7 @@
-# rubocop:disable Layout/LineLength
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
   describe 'Validations' do
-    subject { User.create(email: 'test1@email.com', password: '123456', name: 'testuser') }
-
     it { is_expected.to validate_presence_of(:email) }
     it { is_expected.to validate_presence_of(:name) }
 
@@ -20,4 +17,3 @@ RSpec.describe User, type: :model do
     it { is_expected.to have_many(:hikes).through(:bookings) }
   end
 end
-# rubocop:enable Layout/LineLength
